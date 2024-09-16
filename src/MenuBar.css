@@ -1,0 +1,39 @@
+/* src/components/TopMenuBar.css */
+.top-menu-bar {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color ease 0.3s;
+  }
+  
+  .menu-items {
+    list-style: none;
+    margin-right: 10%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu-items li {
+    margin: 0;
+    
+  }
+  
+  .menu-items a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent ;
+    flex:1;
+  }
+  
+  .menu-items a:hover {
+    border: 2px solid #1857a0;
+    color: #1857a0;
+    border-radius:4px ;
+  }
+  
