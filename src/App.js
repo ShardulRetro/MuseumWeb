@@ -53,15 +53,7 @@ function App() {
     <div>
       <Menubar />
       <div className="Content">
-        <div className="chatbot-container">
-          <IconButton
-            color="primary"
-            aria-label="chat"
-            className="chatbot-button"
-          >
-            <ChatIcon className="chat-icon" />
-          </IconButton>
-        </div>
+        
         <div className="video-container">
           <video autoPlay muted controls>
             <source src={require('./assets/museumvideo.mp4')} type="video/mp4" />
